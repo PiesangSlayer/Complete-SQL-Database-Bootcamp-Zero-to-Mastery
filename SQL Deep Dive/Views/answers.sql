@@ -22,3 +22,4 @@ FROM employees as e
 JOIN salaries as s USING(emp_no)
 WHERE s.salary > 80000
 ORDER BY s.salary;
+
